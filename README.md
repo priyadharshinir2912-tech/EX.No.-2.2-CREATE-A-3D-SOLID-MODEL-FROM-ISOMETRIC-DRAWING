@@ -11,100 +11,63 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 3. 16 GB of RAM (integrated graphics recommend 1 GB or more)
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
 
-## STEP-2:  Select the Sketch Plane
- Select the TOP (XY) Plane
+**PROCEDURE:**
 
-## STEP-3: Create a Sketch 
-1.  Select Sketch > Rectangle > Center Rectangle.
-2.  Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.  Click once to begin placing the rectangle.
-4.  Type the Tab button and enter the values 56 mm and 18mm for the width and height respectively.
-5.  Select Sketch > Arc > Center point arc.
-6.  Click again to place the value (Both end of the sketch). You should see the cursor snap to this location
-7.  Type the Tab button and enter the values R 18mm
-8.  Select Sketch > circle > Center point circle.
-9.  Click again to place the value (Both side of the sketch). You should see the cursor snap to this location
-10. Type the Tab button and enter the values dia 16mm
-11. Click again to place the sketch.
-12. Click Finish Sketch after completing.
+1. Open Fusion 360 in your computer and create a new design file and save it as Ex: 2.2.
+2. Click on Create Sketch and select the XY Plane to start drawing the base plate.
+3. Draw a centre line in the middle of the sketch to maintain symmetry for the base plate.
 
-## STEP-4: Extrude Sketch in XY Plane
-1.	Select Extrude.
-2.	Select the sketch.
-3.	Click again to place the value.
-4.	Type in the value of 8mm. 
-5.	Press ENTER to accept the value.
+<img width="795" height="646" alt="Screenshot 2026-11-20 174118" src="https://github.com/user-attachments/assets/8534a680-1b73-4598-9d25-63c7ac0c251b" />
 
-## STEP-5:  Start the sketch command
-   Select Sketch > Create Sketch.
+4. Draw two circles of R18 on the left and right ends for the semi-circular ends of the base.
+<img width="665" height="672" alt="Screenshot 2026-11-20 174217" src="https://github.com/user-attachments/assets/b03ce867-3232-4fec-9608-32924ed54871" />
 
-## STEP-6: Select the Sketch Plane
-	Select the TOP SURFACE of the 3D block 
-  
-## STEP-7: Create a RECTANGLE 
-1.	Select Sketch > RECTANGLE  > CENTER RECTANGLE.
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the RECTANGLE.
-4.	Type the Tab button and enter the values 40mm and 10mm for the width and height respectively
-5.	Click again to place the RECTANGLE.
-6.	Click Finish Sketch after completing.
+5.Connect the two circles with two tangent lines on top and bottom to complete the oval base shape.
 
-## STEP-8:  Extrude RECTANGLE 
-1.	Select Extrude.
-2.	Select the Rectangle sketch.
-3.	Click again to place the value.
-4.	Type in the value of 32mm. 
-5.	Press ENTER to accept the value.
+<img width="801" height="482" alt="Screenshot 2026-11-20 174629" src="https://github.com/user-attachments/assets/cadc0bcf-b7f0-4e1c-940b-1596997233c0" />
 
-## STEP-9: Create a TRIANGLE 
-1.	Select Sketch > TRIANGLE > CENTER TRIANGLE .
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the TRIANGLE.
-4.	Type the Tab button and enter the values 32mm and 12mm for the width and height respectively
-5.	Click again to place the TRIANGLE.
-6.	Click Finish Sketch after completing.
+6. Click on Finish Sketch, then click on Extrude tool and give the distance as 8 mm to make the
+base plate.
+7. Create a new sketch on the top face of the base plate for the two mounting holes.
+8. Draw two circles of diameter 16 mm on the left and right ends at the centre of the R18 arcs.
+9. Click on Finish Sketch, then click on Extrude tool, select Cut and use Through All option.
+10. Cut the two Ø16 holes through the base plate and check both holes are clear.
 
-## STEP-10:  Extrude TRIANGLE
-1.	Select Extrude.
-2.	Select the TRIANGLE sketch.
-3.	Click again to place the value.
-4.	Type in the value of 6mm in both direction option. 
-5.	Press ENTER to accept the value.
+<img width="750" height="810" alt="Screenshot 2026-11-20 174701" src="https://github.com/user-attachments/assets/7b355e34-050a-4f42-a4ba-ddb946da6d93" />
 
-## STEP-11: Create a PENTAGON 
-1.	Select Sketch > polygon > circumscribed polygon.
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the polygon.
-4.	Type the Tab button and enter the values 40mm and 30mm, for the width and height respectively and Choose 3 Side
-5.	Click again to place the polygon.
-6.	Click Finish Sketch after completing.
+11. Create a new sketch on the XZ Plane in the centre for the vertical support.
+12. Draw a rectangle for the vertical support from the base top face up to the boss centre height.
+13. Click on Finish Sketch, then click on Extrude tool and give the thickness as 12 mm.
+14. Select Symmetric option in Extrude so the support comes 6 mm on both sides of the centre
+plane.
+15. Create a new sketch on the YZ Plane on the side for the triangular rib.
+16. Draw a triangle starting from the base top face going up along the vertical support for the rib.
+17. Click on Finish Sketch, then click on Extrude tool and give the rib thickness as 8 mm
+symmetrically.
+18. Select Join option in Extrude so the rib merges with the base and the vertical support.
+19. Create a new sketch on the top face of the vertical support for the cylindrical boss.
+20. Draw a circle of diameter 30 mm at the centre of the top face for the boss.
+21. Click on Finish Sketch, then click on Extrude tool and give the distance to make the boss
+cylinder.
+22. Create a new sketch on the front face of the boss and draw a circle of diameter 20 mm at
+the centre.
+23. Click on Extrude tool, select Cut and use Through All to cut the Ø20 hole through the boss.
 
-## STEP-12: Extrude PENTAGON
-1.	Select Extrude.
-2.	Select the PENTAGON sketch.
-3.	Click again to place the value.
-4.	Type in the value of 10mm. 
-5.	Press ENTER to accept the value.
+<img width="655" height="451" alt="Screenshot 2026-11-20 174740" src="https://github.com/user-attachments/assets/31f92b5b-accb-4e93-bdf1-8534e13a78e4" />
 
-## STEP-13: Create a CIRCLE 
-1.	Select Sketch > CIRCLE > CENTER CIRCLE.
-2.	Now hover over the origin (Pentagan end side) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the CIRCLE.
-4.	Type the Tab button and enter the value DIA 30mm and 20mm, inner and outer diameter respectively .
-5.	Click again to place the circle.
-6.	Click Finish Sketch after completing.
+24. Check the Top View, Front View and Side View using the View Cube, total height from base
+to boss centre should be 40 mm, base width 40 mm, and support in centre.
+25. Go to File, New Drawing, From Design, place Front View, Top View, Side View and Isometric
+View, give all dimensions like 40, 36, 30, 20, 16, R18, Ø30, Ø20, fill the title block and save the
+file.
 
-## STEP-14:  Extrude CIRCLE 
-1.	Select Extrude.
-2.	Select the pentogan sketch.
-3.	Click again to place the value.
-4.	Type in the value of 10mm on both side. 
-5.	Press ENTER to accept the value.
 
 ## INPUT:
 ![image](https://user-images.githubusercontent.com/113594316/198523331-05ace360-502b-4569-b9b4-31c60e3cd554.png)
 
-Output:
+**Output:**
+
+<img width="1020" height="736" alt="Screenshot 2026-11-17 223153" src="https://github.com/user-attachments/assets/bbf70575-c3ac-4cd2-bc32-de2027a4a54b" />
 
 ## RESULT: 
 Thus, the 3D model is created from given isometric drawing.
